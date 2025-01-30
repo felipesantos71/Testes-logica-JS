@@ -13,7 +13,7 @@ let mensagemDeErro = "Erro! Preencha todos os campos";
 nome = prompt("Digite seu nome: "); 
 idade = prompt("Digite sua idade");
 
-//estrutura condicional para comparacao de dados inseridos
+//estrutura condicional para comparacao de dados inseridos.
 //com os registrados
 if (nome != nomeCadastrado || idadeCadastrada != idade) {
     alert(mensagemDeErro);
